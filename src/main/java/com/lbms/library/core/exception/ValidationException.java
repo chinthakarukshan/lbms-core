@@ -1,4 +1,4 @@
-package com.lbms.library.exception;
+package com.lbms.library.core.exception;
 
 public class ValidationException extends Exception{
 
