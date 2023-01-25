@@ -1,6 +1,8 @@
 package com.lbms.library.core.exception;
 
-public class ValidationException extends Exception{
+import com.lbms.library.core.error.ThrowableError;
+
+public class ValidationException extends RuntimeException {
 
     private ThrowableError throwableError;
 

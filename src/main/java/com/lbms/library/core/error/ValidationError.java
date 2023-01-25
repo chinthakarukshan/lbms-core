@@ -1,6 +1,8 @@
-package com.lbms.library.core.exception;
+package com.lbms.library.core.error;
 
-public enum ValidationError implements ThrowableError{
+import com.lbms.library.core.error.ThrowableError;
+
+public enum ValidationError implements ThrowableError {
     ;
 
     ValidationError(final String code, final String message) {

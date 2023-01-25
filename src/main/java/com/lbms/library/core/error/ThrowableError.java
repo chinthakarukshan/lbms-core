@@ -1,4 +1,4 @@
-package com.lbms.library.core.exception;
+package com.lbms.library.core.error;
 
 public interface ThrowableError {
 

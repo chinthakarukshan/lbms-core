@@ -1,6 +1,8 @@
 package com.lbms.library.core.exception;
 
-public class LBMSException extends Exception{
+import com.lbms.library.core.error.ThrowableError;
+
+public class LBMSException extends RuntimeException{
     private ThrowableError throwableError;
 
     public LBMSException() {
