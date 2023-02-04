@@ -13,4 +13,8 @@ public class LBMSException extends RuntimeException{
         super(throwableError.getMessage());
         this.throwableError = throwableError;
     }
+
+    public ThrowableError getThrowableError() {
+        return throwableError;
+    }
 }
