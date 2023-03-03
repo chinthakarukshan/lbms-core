@@ -3,7 +3,8 @@ package com.lbms.library.core.error;
 public enum LBMSError implements ThrowableError{
     MEMBER_EXISTS("LBMSVAL0001","Member exists with the email address"),
     MEMBER_DOES_NOT_EXIST("LBMSVAL0002","A member with the user id does not exist"),
-    INVALID_MEMBER_TO_UPDATE("LBMSVAL0003","A member with the requested user ID doesn't exist to update");
+    INVALID_MEMBER_TO_UPDATE("LBMSVAL0003","A member with the requested user ID doesn't exist to update"),
+    EMAIL_CANNOT_BE_UPDATED("LBMSVAL0004","Email address cannot be changed for a already registered user");
 
     LBMSError(String code, String message) {
         this.code = code;
