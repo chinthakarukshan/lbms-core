@@ -1,11 +1,11 @@
-package com.lbms.library.core.util;
+package com.lbms.library.core.util.constant;
 
-public enum CategoryConstant {
+public enum CategoryStatus {
     ACTIVE("Active"), INACTIVE("Inactive");
 
     private String status;
 
-    private CategoryConstant(String status) {
+    private CategoryStatus(String status) {
         this.status = status;
     }
 
