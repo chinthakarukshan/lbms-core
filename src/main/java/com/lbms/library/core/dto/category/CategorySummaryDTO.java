@@ -14,6 +14,8 @@ public class CategorySummaryDTO {
 
     private String category;
 
+    private String status;
+
     private String createdBy;
 
     private Date createdDate;
