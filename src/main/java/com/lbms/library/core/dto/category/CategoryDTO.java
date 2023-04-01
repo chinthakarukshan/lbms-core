@@ -12,6 +12,8 @@ import java.util.Date;
 @Setter
 public class CategoryDTO extends CategorySummaryDTO {
 
+    private String description;
+
     private String updatedBy;
 
     private Date updatedDate;
