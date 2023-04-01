@@ -6,7 +6,8 @@ public enum LBMSError implements ThrowableError{
     INVALID_MEMBER_TO_UPDATE("LBMSVAL0003","A member with the requested user ID doesn't exist to update"),
     EMAIL_CANNOT_BE_UPDATED("LBMSVAL0004","Email address cannot be changed for a already registered user"),
     CATEGORY_EXISTS("LBMSVALCAT0001","Category already exists"),
-    CATEGORY_WITH_ID_DOES_NOT_EXIST("LBMSVALCAT0002", "Requested category Id does not exist.");
+    CATEGORY_WITH_ID_DOES_NOT_EXIST("LBMSVALCAT0002", "Requested category Id does not exist."),
+    INVALID_CATEGORY_STATUS("LBMSVALCAT0003","Invalid Category Status");
 
     LBMSError(String code, String message) {
         this.code = code;
